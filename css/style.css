@@ -5,9 +5,7 @@
 }
 
 body {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
-  "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
-  "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Montserrat","遊ゴシック",YuGothic,"ヒメラギ角ゴ　ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sansーserif;
   font-size: 15px;
   line-height: 1.8;
   letter-spacing: .8px;
@@ -95,7 +93,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f7f7f7;
+  background-color: #eef7bd;
 }
 
 .inner {
@@ -112,6 +110,7 @@ li {
   align-items: center;
   justify-content: center;
   height: 86vh;
+  background-color: #1ca9e3;
 }
 
 .logo {
@@ -122,8 +121,9 @@ li {
 }
 
 .logo-title {
-  font-family: "Open sans", sans-serif;
-  font-size: 64px;
+  font-family: "遊ゴシック", sans-serif;
+  font-weight: bolder;
+  font-size: 56px;
   line-height: 1;
   letter-spacing: .2em;
 }
@@ -144,7 +144,7 @@ li {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color: #fff;
+  background-color: rgba(250, 115, 243, 0.692);
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
